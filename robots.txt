@@ -1,0 +1,12 @@
+# robots.txt for https://kediri.ngarumi.dev
+
+User-agent: *
+Allow: /
+
+# Blokir halaman sensitif (opsional)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /config/
+
+# Sitemap location
+Sitemap: https://kediri.ngarumi.dev/sitemap.xml
